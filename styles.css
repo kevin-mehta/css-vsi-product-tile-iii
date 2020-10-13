@@ -59,7 +59,7 @@
 	font-family: corisandebold;
 	font-size: 16px;
 	line-height: 19px;
-	text-align: left;
+	/* text-align: left; */
 	color: #ffffff;
 }
 .order-prod--wrapper .order-prod--status-container .order-prod--status-tracking .order-prod--tracking {
@@ -74,14 +74,14 @@
   font-family: corisanderegular;
 	font-size: 14px;
 	line-height: 16px;
-	text-align: left;
+	/* text-align: left; */
 	color: #424242;
 }
 .order-prod--wrapper .order-prod--status-container .order-prod--status-tracking .order-prod--tracking .order-prod--tracking-number-text {
   font-family: corisanderegular;
 	font-size: 14px;
 	line-height: 16px;
-	text-align: left;
+	/* text-align: left; */
 	color: #0368C5;
 }
 .order-prod--wrapper .order-prod--status-container .order-prod--grouping-tile {
@@ -199,12 +199,26 @@
 	color: #666666;
 	align-content: center;
 }
+@media screen and (max-width: 1024px) {
+  .order-prod--wrapper .order-prod--status-container .order-prod--status-tracking .order-prod--tracking {
+    width: 25%;
+  }
+}
 @media screen and (max-width: 767px) {
 	.order-prod--wrapper .order-prod--status-container {
 		padding-top: 48px;
 		padding-left: 15px;
 		padding-right: 15px;
 	}
+  .order-prod--wrapper .order-prod--status-container .order-prod--status-tracking {
+    transform: translateY(-68px);
+  }
+  .order-prod--wrapper .order-prod--status-container .order-prod--status-tracking .order-prod--status {
+    width: 15%;
+  }
+  .order-prod--wrapper .order-prod--status-container .order-prod--status-tracking .order-prod--tracking {
+    width: 55%;
+  }
 	.order-prod--wrapper .order-prod--status-container .order-prod--grouping-tile {
 		flex-direction: column;
 	}
