@@ -199,7 +199,7 @@
 	color: #666666;
 	align-content: center;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .order-prod--wrapper .order-prod--status-container .order-prod--status-tracking .order-prod--tracking {
     width: 25%;
   }
