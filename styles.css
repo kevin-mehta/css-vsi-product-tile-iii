@@ -13,6 +13,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: "corisandebold";
   src: url(https://content.vitaminshoppe.com/fonts/corisandebold/corisandebold.eot);
@@ -27,20 +28,80 @@
   font-style: normal;
   font-display: swap;
 }
+
+.re-subs-jsp--wrapper {
+  float: left;
+  width: 100%;
+  font-family: corisanderegular;
+}
+
+.re-subs-jsp--wrapper.re-subs-jsp--wrapper-disp-none {
+  /* display: none; */
+}
+
+.re-subs-jsp--wrapper .re-subs-jsp--row-message {
+  color: #333;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  text-transform: none;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.re-subs-jsp--wrapper .re-subs-jsp--row-message .re-subs-jsp--col-message {
+  flex-direction: column;
+}
+
+.re-subs-jsp--wrapper .re-subs-jsp--exclamation-mark {
+  font-size: 2.6rem;
+  font-weight: 700;
+  padding: 0 10px;
+}
+
+.re-subs-jsp--wrapper
+  .re-subs-jsp--row-message
+  .re-subs-jsp--col-alert-margin-top {
+  margin: 10px 10px 10px 5px;
+  align-self: center;
+}
+
+.re-subs-jsp--wrapper
+  .re-subs-jsp--row-message
+  .re-subs-jsp--col-alert-flex-shrink {
+  flex-shrink: 8;
+}
+
+.re-subs-jsp--wrapper.sio-jsp--display-none {
+  display: none;
+}
+
+.re-subs-jsp--wrapper
+  .re-subs-jsp--row-message
+  .re-subs-jsp--col-message.re-subs-jsp--icon-align-content-center {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
 .order-prod--wrapper {
   width: 100%;
   margin: 32px 0;
 }
+
 .order-prod--wrapper .order-prod--row {
   display: flex;
   flex-direction: row;
   /* border: 1px solid red; */
 }
+
 .order-prod--wrapper .order-prod--col {
   display: flex;
   flex-direction: column;
   /* border: 1px solid gray; */
 }
+
 .order-prod--wrapper .order-prod--status-container {
   text-align: left;
   position: relative;
@@ -49,6 +110,7 @@
   padding: 42px 10px 26px 10px;
   display: flex;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--status-tracking {
@@ -60,6 +122,7 @@
   /* padding: 10px 18px; */
   position: absolute;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--status-tracking
@@ -72,6 +135,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--status-tracking
@@ -83,6 +147,7 @@
   /* text-align: left; */
   color: #ffffff;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--status-tracking
@@ -94,6 +159,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--status-tracking
@@ -105,6 +171,7 @@
   /* text-align: left; */
   color: #424242;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--status-tracking
@@ -116,15 +183,18 @@
   /* text-align: left; */
   color: #0368c5;
 }
+
 .order-prod--wrapper .order-prod--status-container .order-prod--grouping-tile {
   width: 100%;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--grouping-tile
   .order-prod--img {
   width: 10%;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--grouping-tile
@@ -137,6 +207,7 @@
     height: 100%;
   }
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--grouping-tile
@@ -144,6 +215,7 @@
   width: 49%;
   margin-left: 17px;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--grouping-tile
@@ -151,6 +223,7 @@
   .order-prod--brand {
   margin-bottom: 8px;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--grouping-tile
@@ -162,6 +235,7 @@
   line-height: 20px;
   color: #666666;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--grouping-tile
@@ -169,6 +243,7 @@
   .order-prod--name {
   margin-bottom: 10px;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--grouping-tile
@@ -181,6 +256,7 @@
   line-height: 23px;
   color: #002877;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--grouping-tile
@@ -188,6 +264,7 @@
   .order-prod--item-id {
   margin-bottom: 8px;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--grouping-tile
@@ -199,6 +276,7 @@
   line-height: 18px;
   color: #666666;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--grouping-tile
@@ -206,6 +284,7 @@
   .order-prod--rating-review {
   margin-bottom: 8px;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--grouping-tile
@@ -217,6 +296,7 @@
   line-height: 16px;
   color: #0458ad;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--grouping-tile
@@ -224,6 +304,7 @@
   .order-prod--auto-delivery {
   width: 100%;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--grouping-tile
@@ -233,6 +314,7 @@
   display: flex;
   align-items: center;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--grouping-tile
@@ -242,6 +324,7 @@
   .order-prod--auto-delivery-message-icon {
   margin-right: 10px;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--grouping-tile
@@ -254,6 +337,7 @@
   line-height: 16px;
   color: #333333;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--grouping-tile
@@ -261,6 +345,7 @@
   width: 21%;
   margin-left: 17px;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--grouping-tile
@@ -268,6 +353,7 @@
   .order-prod--qty {
   margin-bottom: 12px;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--grouping-tile
@@ -278,6 +364,7 @@
   line-height: 14px;
   color: #717171;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--grouping-tile
@@ -285,6 +372,7 @@
   .order-prod--price {
   margin-bottom: 9px;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--grouping-tile
@@ -295,22 +383,39 @@
   line-height: 19px;
   color: #333333;
 }
+
+/**
+ * Styles for "X quantity cancelled" warning message.
+ */
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--grouping-tile
   .order-prod--qty-price
-  .order-prod--warning {
+  .order-prod--warning-message {
 }
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--grouping-tile
   .order-prod--qty-price
-  .order-prod--warning-text {
+  .order-prod--warning-message
+  .order-prod--warning-message-icon {
+  margin-right: 2px;
+}
+.order-prod--wrapper
+  .order-prod--status-container
+  .order-prod--grouping-tile
+  .order-prod--qty-price
+  .order-prod--warning-message
+  .order-prod--warning-message-text {
   font-family: corisanderegular;
   font-size: 16px;
   line-height: 23px;
   color: #424242;
 }
+
+/**
+ * Styles for "Buy Again" CTA and disclaimer below that.
+ */
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--grouping-tile
@@ -318,6 +423,7 @@
   width: 20%;
   margin-left: 17px;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--grouping-tile
@@ -325,6 +431,7 @@
   .order-prod--cta {
   margin-bottom: 11px;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--grouping-tile
@@ -337,6 +444,7 @@
   border-radius: 5px;
   border: 1px solid #0458ad;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--grouping-tile
@@ -348,6 +456,7 @@
   line-height: 18px;
   color: #ffffff;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--grouping-tile
@@ -356,6 +465,7 @@
   width: 149px;
   text-align: center;
 }
+
 .order-prod--wrapper
   .order-prod--status-container
   .order-prod--grouping-tile
@@ -368,6 +478,7 @@
   color: #666666;
   align-content: center;
 }
+
 @media screen and (max-width: 1023px) {
   .order-prod--wrapper
     .order-prod--status-container
@@ -376,6 +487,7 @@
     width: 25%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .order-prod--wrapper .order-prod--status-container {
     padding-top: 48px;
@@ -506,7 +618,7 @@
     .order-prod--status-container
     .order-prod--grouping-tile
     .order-prod--qty-price
-    .order-prod--warning {
+    .order-prod--warning-message {
     width: 100%;
     justify-content: center;
     margin-bottom: 18px;
