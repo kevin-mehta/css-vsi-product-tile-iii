@@ -139,6 +139,24 @@
 	line-height: 16px;
 	color: #0458AD;
 }
+.order-prod--wrapper
+  .order-prod--status-container
+  .order-prod--grouping-tile
+  .order-prod--details
+  .order-prod--auto-delivery {
+  width: 100%;
+}
+.order-prod--wrapper
+  .order-prod--status-container
+  .order-prod--grouping-tile
+  .order-prod--details
+  .order-prod--auto-delivery
+  .order-prod--auto-delivery-text {
+  font-family: corisanderegular;
+  font-size: 14px;
+  line-height: 16px;
+  color: #333333;
+}
 .order-prod--wrapper .order-prod--status-container .order-prod--grouping-tile .order-prod--qty-price {
 	width: 21%;
 	margin-left: 17px;
@@ -258,6 +276,14 @@
 		justify-content: center;
 		margin-bottom: 18px;
 	}
+  .order-prod--wrapper
+    .order-prod--status-container
+    .order-prod--grouping-tile
+    .order-prod--details
+    .order-prod--auto-delivery {
+    justify-content: center;
+    margin-bottom: 17px;
+  }
 	.order-prod--wrapper .order-prod--status-container .order-prod--grouping-tile .order-prod--qty-price {
 		width: 100%;
 		margin-left: 0;
