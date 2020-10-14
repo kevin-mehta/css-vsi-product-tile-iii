@@ -32,7 +32,6 @@
 .re-subs-jsp--wrapper {
   float: left;
   width: 100%;
-  font-family: corisanderegular;
 }
 
 .re-subs-jsp--wrapper.re-subs-jsp--wrapper-disp-none {
@@ -41,13 +40,15 @@
 
 .re-subs-jsp--wrapper .re-subs-jsp--row-message {
   color: #333;
-  background-color: #f8d7da;
-  border-color: #f5c6cb;
+  /* background-color: #f8d7da; */
+  /* border-color: #f5c6cb; */
   font-size: 1.4rem;
   border-radius: 5px;
   text-transform: none;
   display: flex;
   margin-bottom: 30px;
+  background-color: #fff3cc;
+  border: 1px solid #ffc200;
 }
 
 .re-subs-jsp--wrapper .re-subs-jsp--row-message .re-subs-jsp--col-message {
