@@ -77,7 +77,10 @@
   padding: 0 10px;
 }
 
-.re-subs-jsp--wrapper .re-subs-jsp--row-message .re-subs-jsp--col-message .re-subs-jsp--col-message-text {
+.re-subs-jsp--wrapper
+  .re-subs-jsp--row-message
+  .re-subs-jsp--col-message
+  .re-subs-jsp--col-message-text {
   font-family: Lato;
   font-size: 12px;
   line-height: 15px;
@@ -266,6 +269,9 @@
   .order-prod--details
   .order-prod--name {
   margin-bottom: 10px;
+  width: 75%;
+  display: block;
+  max-width: 100%;
 }
 
 .order-prod--wrapper
@@ -275,10 +281,11 @@
   .order-prod--name
   .order-prod--name-text {
   font-family: corisandebold;
-  width: 75%;
+  /* width: 75%; */
   font-size: 16px;
   line-height: 23px;
   color: #002877;
+  height: 40px;
 }
 
 .order-prod--wrapper
