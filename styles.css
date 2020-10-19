@@ -492,6 +492,18 @@
   .order-prod--status-container
   .order-prod--grouping-tile
   .order-prod--cta-disclaimer
+  .order-prod--cta
+  .order-prod--na-text {
+  font-family: corisanderegular;
+  font-size: 12px;
+  line-height: 14px;
+  color: #717171;
+}
+
+.order-prod--wrapper
+  .order-prod--status-container
+  .order-prod--grouping-tile
+  .order-prod--cta-disclaimer
   .order-prod--disclaimer {
   width: 149px;
   text-align: center;
