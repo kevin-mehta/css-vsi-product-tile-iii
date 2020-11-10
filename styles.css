@@ -529,6 +529,16 @@
     .order-prod--tracking {
     width: 25%;
   }
+  .order-prod--wrapper
+    .order-prod--status-container
+    .order-prod--status-tracking
+    .order-prod--tracking
+    .order-prod--tracking-text {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -553,6 +563,16 @@
     .order-prod--status-tracking
     .order-prod--tracking {
     width: 55%;
+  }
+  .order-prod--wrapper
+    .order-prod--status-container
+    .order-prod--status-tracking
+    .order-prod--tracking
+    .order-prod--tracking-text {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .order-prod--wrapper
     .order-prod--status-container
